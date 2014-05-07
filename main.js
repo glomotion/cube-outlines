@@ -53,10 +53,7 @@ function init() {
         })
     ];
 
-    meshT = new THREE.Mesh(
-        geometryT,
-        new THREE.MeshFaceMaterial( materialT ) 
-    );
+    meshT = new THREE.Mesh( geometryT, new THREE.MeshFaceMaterial(materialT) );
     scene.add(meshT);
 
     // renderer = new THREE.CanvasRenderer();
