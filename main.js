@@ -50,7 +50,7 @@ function init() {
         new THREE.MeshLambertMaterial({
             map: THREE.ImageUtils.loadTexture('logo-face-01.svg'),
             emissive: 0xffffff
-        }),
+        })
     ];
 
     meshT = new THREE.Mesh(
