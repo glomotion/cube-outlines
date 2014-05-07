@@ -43,12 +43,12 @@ function init() {
         }),
         // front face
         new THREE.MeshLambertMaterial({
-            map: THREE.ImageUtils.loadTexture('logo-face.png'),
+            map: THREE.ImageUtils.loadTexture('logo-face-01.svg'),
             emissive: 0xffffff
         }),
         // back face
         new THREE.MeshLambertMaterial({
-            map: THREE.ImageUtils.loadTexture('logo-face.png'),
+            map: THREE.ImageUtils.loadTexture('logo-face-01.svg'),
             emissive: 0xffffff
         }),
     ];
